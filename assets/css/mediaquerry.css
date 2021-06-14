@@ -1,0 +1,50 @@
+#hamburgermenu {
+    display: none;
+}
+
+#nav-hamburgermenu {
+    display: none;
+}
+
+@media only screen and (max-width: 960px) {
+
+    body {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #nav-ol {
+        display: none;
+    }
+
+    #hamburgermenu {
+        display: block;
+        height: 75px;
+        width: 75px;
+        background-color: yellow;
+        border: none;
+    }
+
+    #nav-hamburgermenu {
+        display: none;
+        width: 100%;
+        height: auto;
+        background-color: pink;
+        justify-content: center;
+
+    }
+
+    #hamburgermenu-ol {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .hamburgermenu-li {
+        margin: 10px;
+    }
+}
