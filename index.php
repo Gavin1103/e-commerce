@@ -1,4 +1,3 @@
-
 <?php
 include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/header.php");
 ?>
@@ -13,37 +12,69 @@ include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/header.php");
     <section class="section-index">
         <div class="product-blok">
             <div class="product-blok-img">
+            <div class="title-prijs"><h2><strong>$59,00</strong></h2></div>
+            </div>
+            <div class="title-blok">
+            <h2>Battlefield 6</h2>
             </div>
         </div>
         <div class="product-blok">
-        <div class="product-blok-img">
+            <div class="product-blok-img">
+            <div class="title-prijs"><h2><strong>$59,00</strong></h2></div>
+            </div>
+            <div class="title-blok">
+            <h2>Battlefield 6</h2>
             </div>
         </div>
         <div class="product-blok">
-        <div class="product-blok-img">
+            <div class="product-blok-img">
+            <div class="title-prijs"><h2><strong>$59,00</strong></h2></div>
+            </div>
+            <div class="title-blok">
+            <h2>Battlefield 6</h2>
             </div>
         </div>
         <div class="product-blok">
-        <div class="product-blok-img">
+            <div class="product-blok-img">
+            <div class="title-prijs"><h2><strong>$59,00</strong></h2></div>
+            </div>
+            <div class="title-blok">
+            <h2>Battlefield 6</h2>
             </div>
         </div>
 
     </section>
     <section class="section-index">
         <div class="product-blok">
-        <div class="product-blok-img">
+            <div class="product-blok-img">
+            <div class="title-prijs"><h2><strong>$59,00</strong></h2></div>
+            </div>
+            <div class="title-blok">
+            <h2>Battlefield 6</h2>
             </div>
         </div>
         <div class="product-blok">
-        <div class="product-blok-img">
+            <div class="product-blok-img">
+            <div class="title-prijs"><h2><strong>$59,00</strong></h2></div>
+            </div>
+            <div class="title-blok">
+            <h2>Battlefield 6</h2>
             </div>
         </div>
         <div class="product-blok">
-        <div class="product-blok-img">
+            <div class="product-blok-img">
+            <div class="title-prijs"><h2><strong>$59,00</strong></h2></div> 
+            </div>
+            <div class="title-blok">
+            <h2>Battlefield 6</h2>
             </div>
         </div>
         <div class="product-blok">
-        <div class="product-blok-img">
+            <div class="product-blok-img">
+            <div class="title-prijs"><h2><strong>$59,00</strong></h2></div>
+            </div>
+            <div class="title-blok">
+            <h2>Battlefield 6</h2>
             </div>
         </div>
     </section>

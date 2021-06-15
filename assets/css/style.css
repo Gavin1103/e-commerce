@@ -1,23 +1,26 @@
 /* voor alle paginas */
 
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     /* background-color: yellow; */
 }
-#container{
+
+#container {
     width: 100%;
     max-width: 1200px;
     min-width: 300px;
 }
+
 /* alles voor de nav */
-nav{
+nav {
     height: 75px;
     width: 100%;
     background-color: white;
@@ -28,24 +31,44 @@ nav{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
 }
 
-#nav-ol{
+#nav-ol {
     display: flex;
     list-style: none;
 }
 
-.nav-li{
+.nav-li {
     margin-left: 10%;
     font-size: 125%;
+    font-weight: bolder;
 
 }
 
-footer{
+#cart-container {
+    font-size: 125%;
+    margin-left: auto;
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    /* background-image: url(../img/cart.jpg);
+    background-position: center;
+    background-size: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width:65%;
+    height:65%;
+}
+
+footer {
     width: 100%;
     height: 100px;
     background-color: teal;
 }
 
-main{
+main {
     width: 100%;
     height: auto;
     /* background-color: violet; */
@@ -56,7 +79,7 @@ main{
 /* alles voor de index.php */
 
 
-#header-index{
+#header-index {
     height: 300px;
     width: 100%;
     /* background-color: yellow; */
@@ -66,26 +89,27 @@ main{
     background-repeat: no-repeat;
 }
 
-.titel-container{
+.titel-container {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
-.section-index{
+
+.section-index {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     /* flex-direction:row; */
-    
+
 }
 
-.product-blok{
+.product-blok {
     background-color: white;
-    height:350px ;
+    height: 350px;
     width: 250px;
     /* margin: 50px 50px 0px 50px */
     margin-top: 50px;
@@ -94,11 +118,35 @@ main{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.product-blok-img{
+.product-blok-img {
     height: 250px;
-    width:250px ;
+    width: 250px;
     background-color: yellow;
     background-image: url(../img/battlefieldjpg.jpg);
     background-position: left;
     background-size: cover;
+}
+
+.title-blok {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-prijs {
+    height: 100%;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: 0.75;
+
+}
+
+.product-blok:hover .title-prijs {
+    display: flex;
+
 }
