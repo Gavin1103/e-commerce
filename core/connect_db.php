@@ -1,11 +1,11 @@
 <?php
-$db_name = "keuzedeel_ecommerce";
-$servername = "localhost";
-$username = "root";
-$password = "";
+$dbhost = "localhost";
+$dbuser = "root";
+$dbpass = "";
+$dbname = "keuzedeel_ecommerce";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password);
+$con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
 // Check connection
 // if ($conn->connect_error) {

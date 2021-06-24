@@ -1,0 +1,20 @@
+{
+    "battlefieldImg": [
+        {
+            "id": 1,
+            "img": "battlefield.jpg"
+        },
+        {
+            "id": 2,
+            "img": "battlefield_img_2"
+        },
+        {
+            "id": 3,
+            "img": "battlefield_img_3"
+        },
+        {
+            "id": 4,
+            "img": "battlefield_img_4"
+        }
+    ]
+}
