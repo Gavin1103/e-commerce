@@ -9,8 +9,8 @@ include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/connect_db.php")
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo BASEURL; ?>assets/css/style.css">
-    <link rel="stylesheet" href="<?php echo BASEURL; ?>assets/css/mediaquerry.css">
+    <link rel="stylesheet" href="<?php echo BASEURL; ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo BASEURL; ?>/assets/css/mediaquerry.css">
     <title>Keuzedeel E-commerce</title>
 </head>
 
@@ -38,9 +38,9 @@ include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/connect_db.php")
         </nav>
         <div id="nav-hamburgermenu">
             <ol id="hamburgermenu-ol">
-                <li class="hamburgermenu-li">Home</li>
-                <li class="hamburgermenu-li">Categorieen</li>
-                <li class="hamburgermenu-li">Consoles</li>
-                <li class="hamburgermenu-li">Contact</li>
+                <li class="hamburgermenu-li"><a href="index.php">Home</a></li>
+                <li class="hamburgermenu-li"><a href="#">Categorieen</a></li>
+                <li class="hamburgermenu-li"><a href="#">Consoles</a></li>
+                <li class="hamburgermenu-li"><a href="#">Contact</a></li>
             </ol>
         </div>

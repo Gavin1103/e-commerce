@@ -31,6 +31,40 @@
         
     }
 
+    /* alles voor afrekenen */
+
+    #afrekenen-container{
+        flex-direction: column;
+        height: auto;
+    }
+
+
+    #afrekenen-content-links {
+        width: 100%;
+        height: 800px;
+        background-color: purple;
+    
+    }
+    
+    #afrekenen-content-rechts {
+    
+        width: 100%;
+        height: 800px;
+        /* background-color: yellow; */
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* align-items: center; */
+    
+    }
+    
+    #afrekenen-content-rechts-melding{
+        width: 100%;
+        height: 400px;
+    }
+
 
 
 }

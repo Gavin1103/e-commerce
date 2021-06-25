@@ -12,7 +12,10 @@ include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/header.php");
 
         <div id="afrekenen-content-links">
 
-        
+        <h2>Dit is wat u wilt bestellen.</h2>
+
+
+        <p>Klopt het niet? Pas uw winkelwagen <a href="winkelwagen.php" id="aanpassen-knop">hier aan</a></p>
 
         </div>
 
