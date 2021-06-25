@@ -31,7 +31,7 @@ if ($productQuery === false) {
 
             <div class="product-blok-bestel">
                 <div id="json-img" class="product-blok-img-bestel" style="background-image: url(<?php BASEURL; ?>assets/img/<?php echo $img ?>);">
-                
+
                     <div class="title-prijs-bestel">
                         <h2><strong><?php echo $price; ?></strong></h2>
                     </div>
@@ -78,13 +78,13 @@ if ($productQuery === false) {
                         and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
                         <br>
                         <br>
-                        Various versions have evolved over the years, sometimes by accident,
-                        sometimes on purpose (injected humour and the like).
-                        Various versions have evolved over the years, sometimes by accident,
-                        sometimes on purpose (injected humour and the like).
+                    <ul style="margin-left: 15px ;">
+                        <li>Prijs:$<?php echo $price ?></li>
+                        <li>Game: <?php echo $productName ?> </li>
+                    </ul>
                     </p>
                 </div>
-                <a  href="winkelwagen.php"  id="winkelwagen-knop">In winkelwagen</a>
+                <a href="winkelwagen.php" id="winkelwagen-knop">In winkelwagen</a>
             </div>
         </div>
     </div>

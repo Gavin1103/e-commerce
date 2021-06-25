@@ -10,14 +10,20 @@ include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/connect_db.php")
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo BASEURL; ?>/assets/css/style.css">
-    <link rel="stylesheet" href="<?php echo BASEURL; ?>/assets/css/mediaquerry.css">
-    <title>Keuzedeel E-commerce</title>
+    <link rel="stylesheet" href="<?php echo BASEURL; ?>assets/css/mediaquerry.css">
+    <title>Original Gamers</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div id="container">
         <nav>
             <button onclick="hamburgerMenuButton()" id="hamburgermenu"></button>
+            <div id="logo">
+
+
+            </div>
             <ol id="nav-ol">
                 <li class="nav-li"><a href="index.php" class="nav-a">Home</a></li>
                 <li class="nav-li"><a href="#" class="nav-a">Categorieen<a class="nav-a"></li>

@@ -17,9 +17,7 @@ function product_toevoegen() {
   alert("ga naar de winkelwagen om je product(en) te zien");
 }
 
-
 var formulier = document.getElementById("form-afrekenen");
-
 var naam = document.getElementById("naam");
 var achternaam = document.getElementById("achternaam");
 var straatnaam = document.getElementById("straatnaam");
@@ -32,9 +30,10 @@ var melding = document.getElementById("melding");
 
 var afrekenen_content_rechts = document.getElementById("afrekenen-content-rechts");
 var afrekenen_content_rechts_melding = document.getElementById("afrekenen-content-rechts-melding");
-
-console.log("hallo");
-
+var melding_title_1 = document.getElementById("melding-title-1");
+var melding_title_2 = document.getElementById("melding-title-2");
+var klopt_niet = document.getElementById("klopt_het_niet");
+// console.log("hallo");
 formulier.addEventListener("submit", function (event) {
 
   event.preventDefault();
@@ -52,11 +51,13 @@ formulier.addEventListener("submit", function (event) {
 
     // alert("hallo");
     afrekenen_content_rechts.style = "display:none";
-    afrekenen_content_rechts_melding.style = "display:flex"
+    afrekenen_content_rechts_melding.style = "display:flex";
+    melding_title_1.style = "display:none";
+    melding_title_2.style = "display:flex";
+    klopt_niet.style = "display:none"
     
 
   } else {
-    
     melding.style = "display:flex"
     melding.innerHTML = "alles met een ster moet ingevuld zijn!";
   }

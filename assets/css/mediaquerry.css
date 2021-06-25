@@ -36,13 +36,22 @@
     #afrekenen-container{
         flex-direction: column;
         height: auto;
+
     }
 
+    /* #form-afrekenen{
+        margin-top: -100px;
+    }
+    #melding{
+        margin-top: -100px;
+    } */
 
     #afrekenen-content-links {
         width: 100%;
         height: 800px;
-        background-color: purple;
+        display: flex;
+        justify-content: center;
+        /* background-color: purple; */
     
     }
     
@@ -63,10 +72,8 @@
     #afrekenen-content-rechts-melding{
         width: 100%;
         height: 400px;
+        
     }
-
-
-
 }
 
 @media only screen and (max-width: 750px) {

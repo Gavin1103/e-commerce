@@ -6,6 +6,15 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+#logo{
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    background-image: url(../img/logo.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 1%;
+}
 
 body {
     display: flex;
@@ -58,7 +67,7 @@ nav {
     align-items: center;
 }
 
-#gratis-verzending{
+#gratis-verzending {
     font-size: 125%;
     margin-right: 2.5%;
     position: absolute;
@@ -76,12 +85,36 @@ img {
     height: 65%;
 }
 
+.icons {
+    color: black;
+    margin-right: 1%;
+    margin-left: 1%;
+    /* height: 50px; */
+}
+
+#naam-webite-containere{
+    margin-top: 20px;
+    font-size: 125%;
+}
+
+#i-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     width: 100%;
     color: black;
     height: 100px;
-    background-color: teal;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 main {
     width: 100%;
@@ -289,7 +322,7 @@ main {
 
 /* alles voor de winkelwagen */
 
-.betalen-container{
+.betalen-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -376,12 +409,7 @@ main {
     /* justify-content: center; */
 }
 
-#afrekenen-content-links {
-    width: 50%;
-    height: 800px;
-    background-color: purple;
 
-}
 
 #afrekenen-content-rechts {
 
@@ -392,7 +420,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     /* align-items: center; */
 
 }
@@ -405,6 +433,7 @@ main {
     display: none;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 #afrekenen-content-rechts-melding {
@@ -423,15 +452,47 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    margin-top: 50px;
     /* background-color: rosybrown; */
 
 }
 
 input {
-
     width: 300px;
     height: 50px;
     margin: 5px;
+}
 
+#afrekenen-content-links {
+    width: 50%;
+    height: 800px;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#laat-winkelwagen-zien-container {
+
+    padding: 10px;
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.show-producten {
+    width: 100%;
+    height: 500px;
+    /* background-color: blue; */
+}
+
+#melding-title-2{
+
+    display: none;
+    
 }

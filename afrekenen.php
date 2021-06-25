@@ -1,22 +1,22 @@
 <?php
 include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/header.php");
 
-
-
-
 ?>
 <main>
 
 
     <div id="afrekenen-container">
-
         <div id="afrekenen-content-links">
+            <div id="laat-winkelwagen-zien-container">
+                <h2 id="melding-title-1">Dit is wat u wilt bestellen.</h2>
+                <h2 id="melding-title-2">Dit is wat u heeft besteld.</h2>
+                <div class="show-producten">
 
-        <h2>Dit is wat u wilt bestellen.</h2>
+                    Doet het nog niet
 
-
-        <p>Klopt het niet? Pas uw winkelwagen <a href="winkelwagen.php" id="aanpassen-knop">hier aan</a></p>
-
+                </div>
+                <p id="klopt_het_niet">Klopt het niet? Pas uw winkelwagen <a href="winkelwagen.php" id="aanpassen-knop">hier aan</a></p>
+            </div>
         </div>
 
         <div id="afrekenen-content-rechts">
