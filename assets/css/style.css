@@ -53,11 +53,21 @@ nav {
     height: 75px;
     width: 75px;
     background-color: white;
-    /* background-image: url(../img/cart.jpg);
-    background-position: center;
-    background-size: 100%; */
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+#gratis-verzending{
+    font-size: 125%;
+    margin-right: 2.5%;
+    position: absolute;
+    top: 0px;
+    right: 75px;
+    height: 75px;
+    width: auto;
+    /* background-color: red; */
+    display: flex;
     align-items: center;
 }
 
@@ -99,7 +109,10 @@ main {
     height: auto;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    align-items: flex-end;
+    /* margin-top: 10px; */
+    /* background-color: red; */
+    height: 50px;
 }
 
 .section-index {
@@ -172,17 +185,16 @@ main {
 
 
     width: 100%;
-    height: 800px;
+    height: auto;
     /* background-color: red; */
     display: flex;
 
 }
 
 #bestel-container-links {
-    height: 100%;
+    height: 800px;
     width: 50%;
     /* background-color: green; */
-
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -232,11 +244,12 @@ main {
 
 #bestel-container-rechts {
 
-    height: 100%;
+    height: 800px;
     width: 50%;
     /* background-color: cornflowerblue; */
     display: flex;
     justify-content: center;
+    overflow-y: scroll;
 }
 
 .titel-container-bestel {
@@ -258,7 +271,14 @@ main {
 
 #winkelwagen-knop {
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 25px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1%;
+    font-weight: bolder;
+
 
 }
 
@@ -268,6 +288,14 @@ main {
 
 
 /* alles voor de winkelwagen */
+
+.betalen-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
 
 #winkelwagen-container {
 
@@ -282,10 +310,11 @@ main {
     width: 100%;
     max-width: 850px;
     height: 100%;
-  
+
     /* background-color: cornflowerblue; */
 
 }
+
 .product-winkelwagen {
     width: 100%;
     height: 200px;
@@ -306,7 +335,7 @@ main {
     background-size: cover;
 }
 
-.info-container{
+.info-container {
     width: 50%;
     height: 100%;
     /* background-color: red; */
@@ -318,7 +347,7 @@ main {
 }
 
 
-.aantal-container{
+.aantal-container {
     width: 20%;
     height: 100%;
     display: flex;
@@ -328,8 +357,81 @@ main {
     font-size: 125%;
 }
 
-.aantal-input{
+.aantal-input {
     width: 30%;
     /* padding: 10px; */
-     
+
+}
+
+
+/* alles voor de afrekenen.php */
+
+#afrekenen-container {
+
+    width: 100%;
+    height: 800px;
+    /* background-color: red; */
+
+    display: flex;
+    /* justify-content: center; */
+}
+
+#afrekenen-content-links {
+    width: 50%;
+    height: 800px;
+    background-color: purple;
+
+}
+
+#afrekenen-content-rechts {
+
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+#melding {
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+    color: red;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#afrekenen-content-rechts-melding {
+    width: 50%;
+    height: 800px;
+    /* background-color: pink; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 150%;
+}
+
+#form-afrekenen {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: rosybrown; */
+
+}
+
+input {
+
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+
 }

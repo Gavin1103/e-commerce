@@ -10,10 +10,9 @@ include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/header.php");
     <div class="titel-container">
         <h2>Populairste Games</h2>
     </div>
-    <section class="section-index">
-
-
-        <!-- <div class="product-blok-container"> -->
+    <div id="scroll-container">
+        <section class="section-index">
+            <!-- <div class="product-blok-container"> -->
             <?php
             $liqry = $con->prepare("SELECT id, name, img, price FROM `ecommerce`");
             if ($liqry === false) {
@@ -42,7 +41,7 @@ include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/header.php");
                 }
                 $liqry->close();
             }
-            ?>  
+            ?>
             <div class="product-blok">
                 <div class="product-blok-img nep-product">
                     <div class="title-prijs">
@@ -129,7 +128,9 @@ include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/header.php");
                 </div>
             </div>
 
-    </section>
+        </section>
+    </div>
+    
 </main>
 <?php
 include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/footer.php");

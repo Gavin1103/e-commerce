@@ -84,7 +84,7 @@ if ($productQuery === false) {
                         sometimes on purpose (injected humour and the like).
                     </p>
                 </div>
-                <button href="winkelwagen.php" onclick="product_toevoegen()" id="winkelwagen-knop">In winkelwagen</button>
+                <a  href="winkelwagen.php"  id="winkelwagen-knop">In winkelwagen</a>
             </div>
         </div>
     </div>

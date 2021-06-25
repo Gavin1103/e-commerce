@@ -13,12 +13,54 @@ function hamburgerMenuButton() {
 
 }
 
-function product_toevoegen(){
-
-  alert("ga naar de winkelwagen om je product(en) te zien")
-
+function product_toevoegen() {
+  alert("ga naar de winkelwagen om je product(en) te zien");
 }
 
+
+var formulier = document.getElementById("form-afrekenen");
+
+var naam = document.getElementById("naam");
+var achternaam = document.getElementById("achternaam");
+var straatnaam = document.getElementById("straatnaam");
+var postcode = document.getElementById("postcode");
+var stad = document.getElementById("stad");
+var email = document.getElementById("email");
+var telefoonnummer = document.getElementById("telefoonnummer");
+// var betaalmethode = document.getElementById("betaalmethode");
+var melding = document.getElementById("melding");
+
+var afrekenen_content_rechts = document.getElementById("afrekenen-content-rechts");
+var afrekenen_content_rechts_melding = document.getElementById("afrekenen-content-rechts-melding");
+
+console.log("hallo");
+
+formulier.addEventListener("submit", function (event) {
+
+  event.preventDefault();
+
+  if (
+    (naam.value != "") &&
+    (achternaam.value != "") &&
+    (straatnaam.value != "") &&
+    (postcode.value != "") &&
+    (stad.value != "") &&
+    (email.value != "") &&
+    (telefoonnummer.value != "")
+    
+  ) {
+
+    // alert("hallo");
+    afrekenen_content_rechts.style = "display:none";
+    afrekenen_content_rechts_melding.style = "display:flex"
+    
+
+  } else {
+    
+    melding.style = "display:flex"
+    melding.innerHTML = "alles met een ster moet ingevuld zijn!";
+  }
+})
 
 
 
@@ -67,4 +109,3 @@ function product_toevoegen(){
 // }
 
 // loadData()
-
