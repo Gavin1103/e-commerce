@@ -4,6 +4,11 @@ $dbuser = "root";
 $dbpass = "";
 $dbname = "keuzedeel_ecommerce";
 
+// $dbhost = "localhost";
+// $dbuser = "u533187_Gavin";
+// $dbpass = "GayLord1103";
+// $dbname = "u533187_ecommerce";
+
 // Create connection
 $con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
