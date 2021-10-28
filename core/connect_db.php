@@ -1,13 +1,13 @@
 <?php
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "keuzedeel_ecommerce";
-
 // $dbhost = "localhost";
-// $dbuser = "u533187_Gavin";
-// $dbpass = "GayLord1103";
-// $dbname = "u533187_ecommerce";
+// $dbuser = "root";
+// $dbpass = "";
+// $dbname = "keuzedeel_ecommerce";
+
+$dbhost = "localhost";
+$dbuser = "u533187_533187";
+$dbpass = "m4BrU2v2";
+$dbname = "u533187_ecommerce";
 
 // Create connection
 $con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
@@ -17,7 +17,7 @@ $con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 //   die("Connection failed: " . $conn->connect_error);
 // }
 // echo "Connected successfully";
-define("BASEURL","http://localhost/programming/keuzedeel/e-commerce/");
+// define("BASEURL","http://u533187.gluweb.nl/ecommerce/");
 // define("BASEURL_CMS","http://localhost/programming/database/p3/database-webshop/database-webshop/admin/");
 
 ?>

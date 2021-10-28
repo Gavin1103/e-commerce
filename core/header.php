@@ -1,5 +1,5 @@
 <?php
-include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/connect_db.php")
+include("connect_db.php")
 ?>
 
 <!DOCTYPE html>
@@ -9,8 +9,8 @@ include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/connect_db.php")
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo BASEURL; ?>assets/css/style.css">
-    <link rel="stylesheet" href="<?php echo BASEURL; ?>assets/css/mediaquerry.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediaquerry.css">
     <title>Original Gamers</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">

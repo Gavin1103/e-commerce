@@ -1,5 +1,5 @@
 <?php
-include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/header.php");
+include("core/header.php");
 
 ?>
 <main>
@@ -59,6 +59,6 @@ include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/header.php");
 
 </main>
 <?php
-include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/footer.php");
+include("core/footer.php");
 
 ?>

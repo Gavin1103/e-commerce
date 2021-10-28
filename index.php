@@ -1,11 +1,10 @@
 <?php
-include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/header.php");
+include("core/header.php");
 ?>
 
 <header id="header-index">
 
 </header>
-
 <main>
     <div class="titel-container">
         <h2>Populairste Games</h2>
@@ -133,5 +132,5 @@ include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/header.php");
     
 </main>
 <?php
-include("/xampp/htdocs/programming/keuzedeel/e-commerce/core/footer.php");
+include("core/footer.php");
 ?>
